@@ -1,0 +1,28 @@
+.first2{
+    text-align: center;
+    color: white; 
+}
+::ng-deep body{
+     background-image: url(../../../assets/beach.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style:italic;
+}
+.formstyle{
+    background-color: white;
+    border-radius: 10px;
+}
+.one{
+   color: aliceblue;
+}
+.color{
+    color: rgb(211 183 22);
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove ;
+    width: 95%;
+    padding-top: 0%;
+}
