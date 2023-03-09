@@ -1,16 +1,19 @@
+.body{
+    background-color: #16f5b6bd;
+}
 .head{
     text-align: center;
-    color: aqua;
-}
-input{
-border-top-style: hidden;
-border-right-style: hidden;
-border-left-style: hidden;
-border-bottom-style: groove ;
-width: 95%;
-padding-top: 5%;
+    color: rgb(2, 10, 10);
+    margin-top: 10%;
 }
 .one{
    margin-top: 5px;
-   border-top: 5px; 
+   border-top: 5px;
+   
+}
+.too{
+    color:white
+}
+.firstcls{
+    margin-top: 5%;
 }

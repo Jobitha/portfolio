@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProtfolioComponent } from './protfolio/protfolio.component';
+import { ProtfolioModule } from './protfolio/protfolio.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ProtfolioComponent } from './protfolio/protfolio.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ProtfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

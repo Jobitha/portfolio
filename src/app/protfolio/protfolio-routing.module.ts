@@ -7,11 +7,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
+  { path: '', component: AboutmeComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'sidebar', component: SidebarComponent },
-  { path: 'about', component: AboutmeComponent },
 ];
 
 @NgModule({

@@ -1,12 +1,16 @@
 <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-12 hello">
         <div class="head">
             <h1>JOBITHA</h1>
             <h4>Angular Developer</h4>
         </div> 
         <div class="sidebar">
-            <li><a href="active"><i class="fa fa-file" aria-hidden="true"></i>About</a></li>
-        </div>
+            <!-- [routerLink]="['/user/list'] -->
+            <li><i class="fa fa-user dd" aria-hidden="true"></i><a class="one" href="" [routerLink]="['']">About</a></li> 
+            <li><i class="fa fa-file two" aria-hidden="true"></i><a class="one" href="" [routerLink]="['/skills']">Skills</a></li>
+            <li><i class="fa fa-file-text two" aria-hidden="true"></i><a class="one" href="" [routerLink]="['/resume']">Resume</a></li>
+            <li><i class="fa fa-briefcase two" aria-hidden="true"></i><a class="one" href="" [routerLink]="['/contact']">Contact</a></li>
+            <!-- <li><a routerLink="/contact" routerLinkActive="active">First Component</a></li> -->
+        </div>  
     </div>
-    <div class="col-md-10"></div>
 </div>

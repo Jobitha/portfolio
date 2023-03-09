@@ -20,6 +20,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
   imports: [
     CommonModule,
     ProtfolioRoutingModule
-  ]
+  ],
+  exports: [SidebarComponent],
+
 })
 export class ProtfolioModule { }
