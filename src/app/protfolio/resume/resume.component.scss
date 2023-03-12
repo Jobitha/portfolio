@@ -1,17 +1,34 @@
-.skills{
-    background-color:lightgrey;
+.head {
+    // background-color: #fc038c7d;
+    background-image: linear-gradient(pink, #4FFFB0);
+    margin-top: 5%;
+    border-radius: 5%;
+    margin-bottom: 0% !important;
+}
+.imgCls {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.skills {
+    background-color: lightgrey;
     width: 10px;
     padding: 2px 6px;
     margin: 5px;
     border-radius: 4px;
-};
-.status{
-    font-size: 13px;
+}
+.status {
+    font-size: 17px;
     font-weight: 400;
-};
-i{
-    color: skyblue;
-};
-img{
+    color: white;
+}
+i {
+    color: #03A9F4;
+}
+img {
     border-radius: 50%;
-};
+    margin-left: 10%;
+}
+p{
+    color: white;
+}
+

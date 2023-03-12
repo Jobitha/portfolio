@@ -1,22 +1,28 @@
 .first2{
     text-align: center;
-    color: white; 
+    color: #232123;
+    margin-top: 5%;    
 }
-::ng-deep body{
-     background-image: url(../../../assets/beach.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-style:italic;
+.first1{
+    text-align: center;
+    color:white;
+}
+.head{
+    // background-color: #fc038c7d; 
+    background-image: linear-gradient(pink, #4FFFB0);
+    font-size: 150%;
+    border-radius: 5%;
 }
 .formstyle{
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 .one{
-   color: aliceblue;
+   color: white;
 }
 .color{
-    color: rgb(211 183 22);
+    color: #232123;
 }
 input{
     border-top-style: hidden;
@@ -25,4 +31,7 @@ input{
     border-bottom-style: groove ;
     width: 95%;
     padding-top: 0%;
+}
+.bcls{
+    margin-bottom: 2%;
 }

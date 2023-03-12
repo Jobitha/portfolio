@@ -1,20 +1,27 @@
 .head{
     text-align: center!important;
-    color: black;
+    color: blueviolet;
     margin-top: 30%;
+    
 }
 .hello{
-    background-color: #16f5b6bd;
+    // background-color: #fc038c7d;
+    background-image: linear-gradient(pink, #4FFFB0);
+}
+.first{
+    height: 127%;
 }
 .dd{
-    font-size: 40px;
+    font-size: 35px;
+    padding-left: 10%;
     margin-bottom: 5px;
     margin-top: 55%;
     color:white;
 }
 .two{
    
-    font-size: 40px;
+    font-size: 35px;
+    padding-left: 10%;
     margin-bottom: 5px;
     margin-top: 15%;
     color:white;
@@ -22,7 +29,7 @@
 .one{
    font-size: 30px;
    margin-left: 15%;
-   color:white; 
+   color:black; 
 }
 li{
     list-style-type: none;

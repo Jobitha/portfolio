@@ -1,19 +1,30 @@
 .body{
-    background-color: #16f5b6bd;
+    // background-color: #fc038c7d;
+    background-image: linear-gradient(pink, #4FFFB0);
+    border-radius: 5%;
 }
 .head{
     text-align: center;
-    color: rgb(2, 10, 10);
+    color:white;
     margin-top: 10%;
+    margin-right: 10%;
 }
 .one{
    margin-top: 5px;
-   border-top: 5px;
-   
+   margin-bottom: 25%;
+   font-size: 195%;
+   color: rgb(2, 10, 10);
 }
 .too{
     color:white
 }
 .firstcls{
     margin-top: 5%;
+}
+.first2{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.skillName{
+    margin-left: 10%;
 }
