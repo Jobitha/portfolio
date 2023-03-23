@@ -7,6 +7,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { FormsComponent } from './forms/forms.component';
+import { RestaurentComponent } from './restaurent/restaurent.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     ResumeComponent,
     SidebarComponent,
     AboutmeComponent,
+    FormsComponent,
+    RestaurentComponent,
   ],
   imports: [
     CommonModule,
