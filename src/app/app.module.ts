@@ -11,6 +11,7 @@ import { ProtfolioModule } from './protfolio/protfolio.module';
     AppComponent,
     ProtfolioComponent,
     
+    
   ],
   imports: [
     BrowserModule,
